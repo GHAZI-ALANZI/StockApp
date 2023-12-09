@@ -39,7 +39,7 @@ namespace StockApp.Common.Message {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TS.EasyStockManager.Common.Message.CommonMessages", typeof(CommonMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("StockApp.Common.Message.CommonMessages", typeof(CommonMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
