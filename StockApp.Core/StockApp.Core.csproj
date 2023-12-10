@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StockApp.Data\StockApp.Data.csproj" />
+    <ProjectReference Include="..\StockApp.Model\StockApp.Model.csproj" />
+  </ItemGroup>
+
 </Project>
