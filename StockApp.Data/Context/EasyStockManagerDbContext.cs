@@ -41,7 +41,7 @@ namespace StockApp.Data.Context
             modelBuilder.ApplyConfiguration(new UnitOfMeasureSeed());
             modelBuilder.ApplyConfiguration(new UserSeed());
             modelBuilder.ApplyConfiguration(new StoreSeed());
-            modelBuilder.ApplyConfiguration(new ProductSeed());
+           // modelBuilder.ApplyConfiguration(new ProductSeed());
         }
 
     }
