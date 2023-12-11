@@ -26,4 +26,8 @@
     <ProjectReference Include="..\StockApp.UnitOfWork\StockApp.UnitOfWork.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\upload\" />
+  </ItemGroup>
+
 </Project>
