@@ -40,9 +40,9 @@ namespace StockApp.Controllers
                     var userIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-                    jsonResultModel.IsSucceeded = true;
-                    jsonResultModel.IsRedirect = true;
-                    jsonResultModel.RedirectUrl = "/home";
+
+                    // Redirect to the home page
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
