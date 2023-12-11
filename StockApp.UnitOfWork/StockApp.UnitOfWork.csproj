@@ -16,4 +16,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StockApp.Repository\StockApp.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
