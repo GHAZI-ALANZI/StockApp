@@ -1,4 +1,8 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
+using System.Collections.Generic;
+using System.Text;
 using StockApp.Data.Entity;
 using StockApp.Model.Domain;
 using StockApp.Model.Service;
@@ -11,12 +15,6 @@ using StockApp.Model.ViewModel.Store;
 using StockApp.Model.ViewModel.Transaction;
 using StockApp.Model.ViewModel.UnitOfMeasure;
 using StockApp.Model.ViewModel.User;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Mvc;
 
 namespace StockApp.Mapper
 {

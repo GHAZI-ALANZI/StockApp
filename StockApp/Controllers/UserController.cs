@@ -11,7 +11,7 @@ using StockApp.Model.ViewModel.JsonResult;
 using StockApp.Model.ViewModel.User;
 
 
-namespace TS.EasyStockManager.Web.Controllers
+namespace StockApp.Web.Controllers
 {
     public class UserController : Controller
     {

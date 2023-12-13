@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp", "StockApp\StockApp.csproj", "{B1C59389-3BBF-4471-A660-A7CB807EE256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp", "StockApp\StockApp.csproj", "{B1C59389-3BBF-4471-A660-A7CB807EE256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Common", "StockApp.Common\StockApp.Common.csproj", "{859A347F-B81A-4EF8-96F1-7D9D67D74B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Common", "StockApp.Common\StockApp.Common.csproj", "{859A347F-B81A-4EF8-96F1-7D9D67D74B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Core", "StockApp.Core\StockApp.Core.csproj", "{A81B7FD1-F337-4061-AEC0-E59E102BC866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Core", "StockApp.Core\StockApp.Core.csproj", "{A81B7FD1-F337-4061-AEC0-E59E102BC866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Data", "StockApp.Data\StockApp.Data.csproj", "{695D2673-2759-417D-8C9E-CC3E91F7A038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Data", "StockApp.Data\StockApp.Data.csproj", "{695D2673-2759-417D-8C9E-CC3E91F7A038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Mapper", "StockApp.Mapper\StockApp.Mapper.csproj", "{F2C3FD1F-0FF8-44DF-86C6-CF44FCF89D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Model", "StockApp.Model\StockApp.Model.csproj", "{74F7CD50-A291-466B-9C26-234B788BD038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Model", "StockApp.Model\StockApp.Model.csproj", "{74F7CD50-A291-466B-9C26-234B788BD038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Repository", "StockApp.Repository\StockApp.Repository.csproj", "{742B7899-D97E-4D2F-9FAE-41FA61F6FA95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Repository", "StockApp.Repository\StockApp.Repository.csproj", "{742B7899-D97E-4D2F-9FAE-41FA61F6FA95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.Service", "StockApp.Service\StockApp.Service.csproj", "{BCEF918B-3A54-4750-92DE-4F8972C94F1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Service", "StockApp.Service\StockApp.Service.csproj", "{BCEF918B-3A54-4750-92DE-4F8972C94F1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockApp.UnitOfWork", "StockApp.UnitOfWork\StockApp.UnitOfWork.csproj", "{45DF1957-A082-4423-9981-1307EF3596E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.UnitOfWork", "StockApp.UnitOfWork\StockApp.UnitOfWork.csproj", "{45DF1957-A082-4423-9981-1307EF3596E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApp.Mapper", "StockApp.Mapper\StockApp.Mapper.csproj", "{DF5A9F23-72D5-4B13-9DC5-DED5E0543032}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,6 @@ Global
 		{695D2673-2759-417D-8C9E-CC3E91F7A038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695D2673-2759-417D-8C9E-CC3E91F7A038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695D2673-2759-417D-8C9E-CC3E91F7A038}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2C3FD1F-0FF8-44DF-86C6-CF44FCF89D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2C3FD1F-0FF8-44DF-86C6-CF44FCF89D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2C3FD1F-0FF8-44DF-86C6-CF44FCF89D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2C3FD1F-0FF8-44DF-86C6-CF44FCF89D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74F7CD50-A291-466B-9C26-234B788BD038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74F7CD50-A291-466B-9C26-234B788BD038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F7CD50-A291-466B-9C26-234B788BD038}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{45DF1957-A082-4423-9981-1307EF3596E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45DF1957-A082-4423-9981-1307EF3596E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45DF1957-A082-4423-9981-1307EF3596E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5A9F23-72D5-4B13-9DC5-DED5E0543032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5A9F23-72D5-4B13-9DC5-DED5E0543032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5A9F23-72D5-4B13-9DC5-DED5E0543032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5A9F23-72D5-4B13-9DC5-DED5E0543032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

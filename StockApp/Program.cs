@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using StockApp.Core.Repository;
 using StockApp.Core.Service;
 using StockApp.Core.UnitOfWorks;
+
 using StockApp.Data.Context;
 using StockApp.Repository.Base;
 using StockApp.Service.Category;
@@ -13,6 +14,7 @@ using StockApp.Service.StoreStock;
 using StockApp.Service.Transaction;
 using StockApp.Service.UnitOfMeasure;
 using StockApp.Service.User;
+using StockApp.Mapper;
 using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
